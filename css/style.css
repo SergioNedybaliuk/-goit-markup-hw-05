@@ -468,7 +468,6 @@ ol {
 
 .cards-link:hover,
 .cards-link:focus {
-  transform: translateY(0%);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -708,7 +707,7 @@ ol {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.cards-li:hover .overlay-card,
-.cards-li:hover .overlay-card {
+.cards-link:hover .overlay-card,
+.cards-link:hover .overlay-card {
   transform: translateY(0%);
 }
