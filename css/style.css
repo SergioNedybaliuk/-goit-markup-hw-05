@@ -708,6 +708,6 @@ ol {
 }
 
 .cards-link:hover .overlay-card,
-.cards-link:hover .overlay-card {
+.cards-link:focus .overlay-card {
   transform: translateY(0%);
 }
